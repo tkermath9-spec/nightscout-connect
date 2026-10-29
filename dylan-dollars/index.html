@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dylan Dollars</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <p class="eyebrow">Detroit Red Wings &middot; #71</p>
+  <h1>Dylan Dollars</h1>
+  <p class="sub">Salary Dylan Larkin has forfeited while suspended</p>
+
+  <div class="counter" id="total" aria-live="off">$0.00</div>
+  <p class="since" id="since"></p>
+
+  <section class="rates">
+    <div><span id="perDay">&ndash;</span><label>per day</label></div>
+    <div><span id="perHour">&ndash;</span><label>per hour</label></div>
+    <div><span id="perSec">&ndash;</span><label>per second</label></div>
+    <div><span id="perGame">&ndash;</span><label>per game</label></div>
+  </section>
+
+  <section class="games">
+    <span id="games">0</span> games missed &middot; <span id="gamesLost">$0</span> docked by the game math
+  </section>
+
+  <section class="buys">
+    <h2>That money could have bought&hellip;</h2>
+    <ul id="buys"></ul>
+  </section>
+
+  <p class="fine">
+    Based on an $8.7M AAV over a 186-day regular season. Joke site, not financial
+    advice, not affiliated with the NHL or the Detroit Red Wings. Actual forfeited
+    pay is determined by the league and the CBA.
+  </p>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
